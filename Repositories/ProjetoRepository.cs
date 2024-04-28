@@ -14,6 +14,7 @@ namespace Exo.WebApi.Repositories
             _context = context;
         }
         public List<Projeto> Listar()
+        
         {
             return _context.Projetos.ToList();
         }
